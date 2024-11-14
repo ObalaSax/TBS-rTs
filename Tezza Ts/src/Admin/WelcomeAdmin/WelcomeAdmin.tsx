@@ -8,7 +8,8 @@ import "./WelcomeAdmin.css";
 function WelcomeAdmin() {
   return (
     <div>
-      <h1>Welcome Admin</h1>
+      <h1>Welcome Admin </h1>
+      <h2>Karibu Sana Mkuu</h2>
     </div>
   );
 }

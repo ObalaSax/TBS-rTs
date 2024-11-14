@@ -1,0 +1,58 @@
+.navigation {
+  background-color: maroon;
+  color: white;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  justify-items: center;
+  align-content: center;
+}
+
+.header-button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.header-button:hover {
+  background: maroon;
+  transform: scale(1.02);
+  border: 1px white solid;
+}
+.navigation-search {
+  display: flex;
+  align-items: center;
+  margin: 10px auto 10px;
+}
+
+.navigation-search input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  padding: 5px;
+  width: 70%;
+  height: 100%;
+}
+
+.navigation-search button {
+  padding: 2px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  color: maroon;
+  cursor: pointer;
+  width: 30%;
+  height: 100%;
+}
+
+/* Optional styling for the header icon */
