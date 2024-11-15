@@ -1,10 +1,12 @@
 import "./SideBar.css";
 
 //Types Definition
-type sidebarOpen = { isOpenSidebar: boolean };
+interface Props {
+  isOpenSidebar: boolean;
+}
 
 //function
-function SideBar(props: sidebarOpen) {
+function SideBar(props: Props) {
   return (
     <div className="sidebar">
       <div className={props.isOpenSidebar ? "sidebar-open" : "sidebar-closed"}>
