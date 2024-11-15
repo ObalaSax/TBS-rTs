@@ -1,24 +1,9 @@
-import React from "react";
-import Grid from "gridjs";
-
-import { UserData } from "../../../library/data/userData";
+import "./Users.css";
 
 function Users() {
   return (
-    <div className="users">
-      <div className="users-container">
-        <Grid
-          data={UserData}
-          columns={[
-            { name: "ID", id: "id" },
-            { name: "First Name", id: "firstName" },
-            { name: "Last Name", id: "lastName" },
-            { name: "Email", id: "email" },
-            { name: "Phone", id: "phone" },
-          ]}
-        />
-      </div>
-      <h1>Kaende</h1>
+    <div>
+      <h1>Users</h1>
     </div>
   );
 }
