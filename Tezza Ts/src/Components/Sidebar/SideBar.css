@@ -4,11 +4,25 @@
 }
 
 .sidebar-closed {
-  background: gray;
+  background: maroon;
   margin: 0;
   padding: 10px auto;
   width: 60px;
   height: 100vh;
+  transition: 1s all ease-out;
+  overflow: hidden;
+
+  ul li {
+    list-style: none;
+  }
+  ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
 }
 
 .sidebar-open {
